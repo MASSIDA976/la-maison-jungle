@@ -1,7 +1,8 @@
 import '../styles/Banner.css';
 import logo from '../assets/logo.png';
+import { Children } from 'react';
 // Je crée mon composant Banner <Banner />
-function Banner() {
+function Banner({children}) {
     let titre = "la maison du jungle"
     return (
         /*l'attribut "className" permet d'attribuer une classe a mon élement
@@ -9,8 +10,7 @@ function Banner() {
            En REACT, on utilise l'attribut "classeName"
            */
         <div className="lmj-banner">
-            <img src={logo} alt="logo de la maison jungle" className="lmj-logo"/>
-            <h1 className="lmj-title">{titre.toUpperCase()}</h1>
+            {children}
         </div>
 
     )    

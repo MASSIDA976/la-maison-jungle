@@ -11,7 +11,7 @@ function App() {
   <div>
     <Banner>
       <img src={logo} alt="logo de la maison jungle" className="lmj-logo"/>
-      <h1 className="lmj-title">{titre.toUpperCase()}</h1>
+      <h1 className="lmj-title">La Maison jungle</h1>
     </Banner>
 
     <Cart/>
