@@ -7,7 +7,16 @@ import Cart from './Cart';
 import ShoppingList from './ShoppingList';
 
 function App() {
-  return (<div><Banner/><Cart/><ShoppingList/></div> ); 
+  return (
+  <div>
+    <Banner>
+      <img src={logo} alt="logo de la maison jungle" className="lmj-logo"/>
+      <h1 className="lmj-title">{titre.toUpperCase()}</h1>
+    </Banner>
+
+    <Cart/>
+    <ShoppingList/>
+    </div> ); 
 }
 
 export default App;

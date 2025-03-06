@@ -1,5 +1,5 @@
-import '../styles/Banner.css'
-import logo from '../assets/logo.png'
+import '../styles/Banner.css';
+import logo from '../assets/logo.png';
 // Je crée mon composant Banner <Banner />
 function Banner() {
     let titre = "la maison du jungle"
@@ -10,7 +10,7 @@ function Banner() {
            */
         <div className="lmj-banner">
             <img src={logo} alt="logo de la maison jungle" className="lmj-logo"/>
-            <h1>{titre.toUpperCase()}</h1>
+            <h1 className="lmj-title">{titre.toUpperCase()}</h1>
         </div>
 
     )    

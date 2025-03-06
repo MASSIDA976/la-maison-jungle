@@ -5,8 +5,8 @@ export const planteListe = [
     {
         name: "monstera",
         category: "classique",
-        id: "2ab"
-        water: true;
+        id: "2ab",
+        water: true,
         light: true
     },
     
@@ -15,17 +15,17 @@ export const planteListe = [
     {
         name: "ficus lyarata",
         category : "classique",
-        id: "1eh"
-        water: false
-        light: true
+        id: "1eh",
+        water: true,
+        light: false
     },
     
     //Mon objet 3
     {
         name: "fruit à pain",
         category: "tropicale",
-        id: "3tr"
-        water: false
+        id: "3tr",
+        water: false,
         light: true
     },
     
@@ -33,8 +33,8 @@ export const planteListe = [
     {
         name: "Ylang-ylang",
         category: "tropicale",
-        id:"1pt"
-        water: true
+        id:"1pt",
+        water: false,
         light: true
     },
     
@@ -43,7 +43,7 @@ export const planteListe = [
         name: "Hibiscus",
         category: "tropicale",
         id: "5rt",
-        water: true,
+        water: false,
         light: true
     }
 ];
