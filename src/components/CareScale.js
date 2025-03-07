@@ -17,7 +17,7 @@ function CareScale(props) {
     <CareScale lumiere = {plante.water} typePlante= 'eau'/>
     */
 
-    const typeDeCulture = typePlante === 'lumiere' ? 'lumière': 'Eau'
+    const typeDeCulture = typePlante === 'lumiere' ? 'lumiere': 'Eau'
 
     return (
         <div>

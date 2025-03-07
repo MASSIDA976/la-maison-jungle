@@ -1,6 +1,6 @@
 import '../styles/Banner.css';
 import logo from '../assets/logo.png';
-import { Children } from 'react';
+
 // Je crée mon composant Banner <Banner />
 function Banner({children}) {
     let titre = "la maison du jungle"

@@ -46,8 +46,8 @@ function ShoppingList() {
                         <li className= "lmj-plant-item" key={plante.id} >
 
                         {plante.name}
-                        <CareScale lumiere ={plante.light} typePlante= 'lumiere'/>
-                        <CareScale lumiere = {plante.water}typePlante= 'eau'/>
+                        <CareScale lumiere = {plante.light} typePlante= 'lumiere'/>
+                        <CareScale lumiere = {plante.water} typePlante= 'eau'/>
 
                         </li> 
                     ))
